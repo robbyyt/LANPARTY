@@ -1,0 +1,62 @@
+
+/* partea oblica */
+@include omb-breakpoint('phone') {
+  .promo {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+  }
+}
+
+@include omb-breakpoint('to-tablet') {
+  .promo {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+  }
+}
+
+/* renuntat de la imagine pt oblicitate */
+@media screen and (max-width: 744px) {
+  #eroi-div {
+    display: none;
+  }
+  #fun-mobile {
+    position: relative !important;
+    left: 0px !important;
+  }
+  .btn-1 {
+    right: -10%;
+  }
+}
+/* imaginea de la competitive */
+@media screen and (max-width: 1136px) {
+  #competitiv {
+    display: none;
+  }
+  #competitiv-mobile {
+    position: relative !important;
+    left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 849px) {
+  #harta {
+    right: 0%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #btn-jmk {
+    padding: 10px 12px !important;
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #btn-jmk {
+    padding: 6px 8px !important;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #btn-jmk {
+    padding: 2px 4px !important;
+    font-size: 17px;
+  }
+}
