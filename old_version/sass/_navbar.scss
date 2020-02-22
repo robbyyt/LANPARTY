@@ -13,12 +13,12 @@
       @include omb-breakpoint('to-tablet') {
         display: none;
       }
-      &__item {
-        color: #00ebd9 !important;
-        font-weight: 600;
-        @include omb-font-size(12px);
-        display: flex;
-        align-items: center;
+        &__item {
+          color: #00ebd9 !important;
+          font-weight: 600;
+          @include omb-font-size(12px);
+          display: flex;
+          align-items: center;
         &:nth-child(2) {
           span {
             border-left: 2px solid $main-color;
@@ -30,7 +30,7 @@
         }
       }
     }
-  }
+  } 
   &__links {
     z-index: 50;
     &--main {
