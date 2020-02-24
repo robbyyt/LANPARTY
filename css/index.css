@@ -349,3 +349,47 @@
     display: none;
   }
   /*PANA AICI AU FOST NISTE ELEMENTE DE NORMALIZARE, DE AICI PUTETI ADAUGA CSS-UL PROPRIU :)*/
+
+.bg-inchis{
+  background-image: url("../assets/images/png/bg-inchis.png");
+}
+.bg-deschis{
+  margin:70px 0;
+  background-image: url("../assets/images/png/bg-deschis.png");
+}
+
+.videobox{
+  max-width: 800px;
+  margin:50px auto;
+}
+
+video{
+  width: 100%;
+  height: auto;
+}
+.container{
+  margin :auto;
+  align-content: center;
+}
+.image{
+  width:100%;
+  height: auto;
+}
+.rotate{
+  transform: rotate(-10deg);
+}
+.title{
+  font-family: "Bitter";
+  font-size: 24px;
+}
+.center{
+  justify-content: center;
+}
+div.text{
+  justify-content: center;
+  color:white;
+  font-size: 20px;
+  font-family: 'Encode Sans';
+  text-align: center;
+  margin :auto;
+}
