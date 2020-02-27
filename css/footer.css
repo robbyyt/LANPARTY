@@ -3,6 +3,12 @@
     position: relative;
     top: 30px;
 }
+.align-right {
+    text-align: right;
+}
+.align-left {
+    text-align: left;
+}
 .row {
     margin: 0;
 }
@@ -20,195 +26,6 @@
 }
 .row__section--bottom {
     padding-bottom: 0;
-}
-.row__section--top-negative-margin {
-    margin-top: -100px;
-}
-@media only screen and (max-width: 750px) {
-    .row__section--top-negative-margin {
-        margin-top: 0;
-    }
-}
-.row__section__competitive {
-    overflow: hidden;
-}
-.row__section__competitive__img {
-    height: 100%;
-}
-.row__section__competitive__img__container {
-    opacity: 0.8;
-}
-@media only screen and (max-width: 1199px) {
-    .row__section__competitive__img__container {
-        left: 0;
-    }
-}
-.row__section__competitive__img__container--left {
-    vertical-align: baseline;
-    position: relative;
-    right: -15%;
-}
-@media only screen and (max-width: 750px) {
-    .row__section__competitive__img__container--left {
-        display: none;
-    }
-}
-.row__section__competitive__img__container--right {
-    vertical-align: baseline;
-    position: relative;
-    left: -15%;
-    line-height: 0 !important;
-}
-@media only screen and (max-width: 750px) {
-    .row__section__competitive__img__container--right {
-        max-width: 100%;
-        flex-basis: 100%;
-        left: unset;
-        display: flex;
-        justify-content: center;
-    }
-}
-@media only screen and (max-width: 750px) {
-    .row__section__competitive__img__container--center {
-        max-width: 100% !important;
-        flex-basis: 100%;
-    }
-}
-.row__section__header {
-    padding-bottom: 70px;
-    min-height: 100vh;
-    position: relative;
-}
-.row__section__header__content {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    padding-top: 120px;
-}
-@media only screen and (max-width: 750px) {
-    .row__section__header__content {
-        position: relative;
-        padding-top: 0;
-    }
-}
-.row__section__header__content .row {
-    width: 100%;
-}
-@media only screen and (max-width: 750px) {
-    .row__section__tickets__text > div {
-        max-width: 100%;
-        flex-basis: 100%;
-    }
-}
-.row__section__competitive-games {
-    padding-top: 150px;
-}
-.row__section__competitive-games__main-img {
-    max-width: 90%;
-}
-@media only screen and (max-width: 750px) {
-    .row__section__competitive-games__main-img {
-        display: none;
-    }
-}
-.row__section__competitive-games__main-img--mobile {
-    display: none;
-    max-width: 85%;
-    margin: 0 auto;
-}
-@media only screen and (max-width: 750px) {
-    .row__section__competitive-games__main-img--mobile {
-        display: block;
-    }
-}
-.row__section__event-description {
-    z-index: 75;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-}
-.row__section__event-description #mobile-shit {
-    display: none;
-}
-.row__section__event-description #mobile-shit .mobile-image {
-    width: 100%;
-}
-@media only screen and (max-width: 1199px) {
-    .row__section__event-description #mobile-shit {
-        display: flex;
-        justify-content: center;
-    }
-}
-.row__section__event-description #shit-heroes {
-    width: 100%;
-}
-.row__section__event-description #shit-heroes .main-img {
-    transform: rotate(-3deg);
-    margin-bottom: -35px;
-}
-@media only screen and (max-width: 1199px) {
-    .row__section__event-description #shit-heroes {
-        display: none;
-    }
-}
-.row__section__event-description__image-container {
-    flex: 1;
-}
-.row__section__event-description__info {
-    flex: 1;
-    margin: 0 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.row__section__event-description__info span {
-    text-align: center;
-    max-width: 450px;
-}
-.row__section__fun .row-map {
-    flex-wrap: unset !important;
-}
-.row__section__fun .row:last-child {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-@media only screen and (max-width: 1199px) {
-    .row__section__fun .row:last-child {
-        display: flex;
-        flex-direction: column;
-    }
-    .row__section__fun .row:last-child #nexus {
-        margin-left: -50px;
-    }
-    .row__section__fun .row:last-child iframe {
-        min-height: 300px;
-        margin-top: 30px;
-        margin-bottom: 40px;
-    }
-}
-.row__section__fun .row:last-child > div {
-    flex: 1;
-}
-@media only screen and (max-width: 750px) {
-    .row__section__fun-games__image {
-        display: none;
-    }
-}
-.row__section__fun-games__image--mobile {
-    display: none;
-    max-width: 85%;
-    margin: 0 auto;
-}
-@media only screen and (max-width: 750px) {
-    .row__section__fun-games__image--mobile {
-        display: block;
-    }
 }
 .row__section__footer {
     padding-top: 50px !important;
@@ -234,29 +51,5 @@
         padding: 0;
         right: 0 !important;
         flex: unset;
-    }
-}
-#btn-jmk {
-    border: 2px solid transparent;
-    border-image: linear-gradient(90deg, #00ebd9, rgba(0, 235, 217, 0.5));
-    border-image-slice: 1;
-    padding: 14px 16px;
-}
-@media screen and (max-width: 1000px) {
-    #btn-jmk {
-        padding: 10px 12px !important;
-        font-size: 19px;
-    }
-}
-@media screen and (max-width: 700px) {
-    #btn-jmk {
-        padding: 6px 8px !important;
-        font-size: 18px;
-    }
-}
-@media screen and (max-width: 500px) {
-    #btn-jmk {
-        padding: 2px 4px !important;
-        font-size: 17px;
     }
 }
