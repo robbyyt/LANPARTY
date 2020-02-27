@@ -377,6 +377,7 @@ video{
 .container{
   margin :auto;
   align-content: center;
+  padding-bottom: 50px;
 }
 .image{
   width:100%;
