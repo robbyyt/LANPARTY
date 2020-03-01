@@ -400,3 +400,51 @@ div.text{
   text-align: center;
   margin :auto;
 }
+/* REGULAMENT */
+.shadowed{
+  padding: 60px 0;
+  box-shadow: 0 1px 10px black;
+}
+.big-title{
+  font-family: "Encode Sans";
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+}
+.ol-type{
+  color:white;
+  font-size: 18px;
+  font-family: 'Encode Sans';
+  font-weight: bold;
+}
+.carousel-indicators{
+  background: url(../assets/images/png/bg-deschis.png);
+  text-align: center;
+  position: relative;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.carousel-indicators img{
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  margin: 20px;
+  object-fit: contain;
+  transition: all .3s ease-in-out;
+}
+.carousel-indicators .active{
+  padding: 5px;
+  background: #292929b3;
+  border: 5px solid #000000e6;
+  border-radius: 10px;
+  transition: all .15s ease-in-out
+}
+.divs{
+  margin : 50px 0;
+}
+.carousel-inner p{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
