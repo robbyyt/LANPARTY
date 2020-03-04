@@ -455,24 +455,24 @@ div.text{
 .title-bitter {
     font-family: "Bitter" !important;
 }
-.row__section__competitive__img__container--left {
-    vertical-align: baseline;
+.img_left {
+    vertical-align: sub;
     position: relative;
     right: -15%;
 }
 @media only screen and (max-width: 750px) {
-    .row__section__competitive__img__container--left {
+    .img_left {
         display: none;
     }
 }
-.row__section__competitive__img__container--right {
+.img_right {
     vertical-align: baseline;
     position: relative;
     left: -14%;
     line-height: 0 !important;
 }
 @media only screen and (max-width: 750px) {
-    .row__section__competitive__img__container--right {
+    .img_right {
         max-width: 100%;
         flex-basis: 100%;
         left: unset;
@@ -481,23 +481,23 @@ div.text{
     }
 }
 @media only screen and (max-width: 750px) {
-    .row__section__tickets__text > div {
+    .tickets > div {
         max-width: 100%;
         flex-basis: 100%;
     }
 }
 @media only screen and (max-width: 750px) {
-    .row__section__fun-games__image {
+    .fun-games_img {
         display: none;
     }
 }
-.row__section__fun-games__image--mobile {
+.fun-games_img--mobile {
     display: none;
     max-width: 85%;
     margin: 0 auto;
 }
 @media only screen and (max-width: 750px) {
-    .row__section__fun-games__image--mobile {
+    .fun-games_img--mobile {
         display: block;
     }
 }
