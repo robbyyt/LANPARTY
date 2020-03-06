@@ -355,7 +355,7 @@
   background-image: url("../assets/images/png/bg-inchis.png");
 }
 .bg-deschis{
-  /*margin:70px 0;*/
+  margin:70px 0;
   background-image: url("../assets/images/png/bg-deschis.png");
 }
 
@@ -452,9 +452,10 @@ div.text{
 }
 
 /* BILETE + PRETURI + PARTICIPA SI TU */
-.title-bitter {
+#title-bitter {
     font-family: "Bitter" !important;
 }
+
 .row__section__competitive__img__container--left {
     vertical-align: baseline;
     position: relative;
@@ -480,25 +481,5 @@ div.text{
         justify-content: center;
     }
 }
-@media only screen and (max-width: 750px) {
-    .row__section__tickets__text > div {
-        max-width: 100%;
-        flex-basis: 100%;
-    }
-}
-@media only screen and (max-width: 750px) {
-    .row__section__fun-games__image {
-        display: none;
-    }
-}
-.row__section__fun-games__image--mobile {
-    display: none;
-    max-width: 85%;
-    margin: 0 auto;
-}
-@media only screen and (max-width: 750px) {
-    .row__section__fun-games__image--mobile {
-        display: block;
-    }
-}
+
 /* EMD OF BILETE + PRETURI + PARTICIPA SI TU */
