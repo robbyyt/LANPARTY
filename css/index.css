@@ -437,6 +437,28 @@ div.text{
   overflow: hidden;
 }
 
+/*Harta*/
+.map_title_margins {
+  margin: 50px 0;
+}
+.adress-info {
+  color: white;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.map {
+  min-height: 500px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .harta {
+    min-height: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
 /* REGULAMENT */
 .shadowed{
   padding: 60px 0;
