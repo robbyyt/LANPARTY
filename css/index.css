@@ -371,6 +371,10 @@
   }
 }
 
+.prices {
+  margin-bottom: 40px;
+}
+
 video{
   width: 100%;
   height: auto;
@@ -382,6 +386,10 @@ video{
 }
 .image{
   width:100%;
+  height: auto;
+}
+.cover {
+  width:80%;
   height: auto;
 }
 .rotate{
