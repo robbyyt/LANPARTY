@@ -403,6 +403,40 @@ div.text{
   margin :auto;
 }
 
+/*participa si tu + buton inscriere*/
+.img_left {
+  vertical-align: sub;
+  position: relative;
+  right: -15%;
+}
+
+.img_right {
+  vertical-align: baseline;
+  position: relative;
+  left: -14%;
+  line-height: 0 !important;
+}
+
+@media only screen and (max-width: 750px) {
+  .img_right {
+      max-width: 100%;
+      flex-basis: 100%;
+      left: unset;
+      display: flex;
+      justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .img_left {
+      display: none;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 /* REGULAMENT */
 .shadowed{
   padding: 60px 0;
