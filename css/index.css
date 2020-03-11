@@ -427,7 +427,7 @@ div.text{
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 863px) {
   .img_left {
       display: none;
   }
